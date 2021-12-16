@@ -10,6 +10,7 @@ return PhpCsFixer\Config::create()
         '@PHP71Migration' => true,
         '@PHP71Migration:risky' => true,
         '@PHP73Migration' => true,
+        '@PHP80Migration' => true,
         'array_syntax' => ['syntax' => 'short'],
         'protected_to_private' => false,
         'compact_nullable_typehint' => true,
